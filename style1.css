@@ -1,0 +1,56 @@
+body{
+  background-image: url("coding.jpg");
+  background-repeat: no-repeat;
+  background-size : 100%;
+}
+
+#grid{
+  display : grid;
+  grid-template-columns : 1fr 4fr;
+  background-color: white;
+  opacity:0.7;
+}
+a{
+  text-decoration: none;
+}
+h1 a{
+  color : black;
+}
+h1{
+  font-size:40px;
+  border-bottom : 1px solid gray;
+  padding : 10px;
+  margin : 0px;
+  text-align : center;
+  background-color: white;
+  opacity:0.7;
+}
+h2{
+  margin:5px;
+}
+ol{
+  margin-left :10px;
+  margin-right:10px;
+  padding-left: 20px;
+  font-weight : bold;
+}
+
+.every_element{
+  border-left : 1px solid gray;
+  padding : 10px;
+}
+@media(max-width : 800px){
+  #grid{
+    display: block;
+  }
+  .every_element{
+    border-left: none;
+  }
+}
+.this{
+  color:red;
+  font-size : 30px;
+}
+.saw{
+  color : gray;
+}
